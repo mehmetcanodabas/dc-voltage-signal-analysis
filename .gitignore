@@ -1,0 +1,50 @@
+# Ignore everything by default
+*
+
+# Allow project directories
+!*/
+
+# Python scripts
+!*.py
+
+# Documentation
+!*.md
+
+# Project configuration
+!requirements.txt
+!.gitignore
+!.gitattributes
+
+# Result images
+!docs/results/*.png
+!docs/results/*.jpg
+!docs/results/*.jpeg
+
+# Ignore datasets
+data/
+*.csv
+*.parquet
+*.npy
+*.npz
+
+# Ignore Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Ignore secrets and local environment settings
+.env
+.env.*
+!.env.example
+
+# Ignore local development files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Ignore temporary files
+*.log
+*.tmp

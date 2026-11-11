@@ -20,6 +20,6 @@ FFT, Median Absolute Deviation (MAD), and median filtering are used to analyze v
 - [Figure 3 – Physical Voltage Drop vs Sensor Measurement Error](docs/results/Figure%203%20-%20Physical%20Voltage%20Drop%20vs%20Sensor%20Measurement%20Error.png): Independent measurement comparison.
 - [Figure 4 – Spike Correction and Cross-Channel Validation](docs/results/Figure%204%20-%20Spike%20Correction%20and%20Cross-Channel%20Validation.png): Spike correction and measurement channel differences.
 
-**Keywords:** Signal Processing, FFT, MAD, Anomaly Detection, Measurement Artifacts, SCADA, DC Voltage, Python.
+**Keywords:** Python, Anomaly Detection, DC Voltage, FFT, MAD, Measurement Artifacts, SCADA, Signal Processing.
 
 **Data Source:** Synthetic voltage measurements.
